@@ -153,6 +153,6 @@
     };
     
     if (typeof define === "object") {
-        define(cdb);
+        define(["underscore", "backbone"],cdb);
     }
 })();
