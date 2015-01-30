@@ -153,6 +153,6 @@
     };
     
     if (typeof define === "object") {
-        define(["underscore", "backbone"],cdb);
+        define(["underscore", "backbone", "jquery"],cdb);
     }
 })();
