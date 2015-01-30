@@ -151,4 +151,8 @@
         next();
 
     };
+    
+    if (typeof define === "object") {
+        define(cdb);
+    }
 })();
